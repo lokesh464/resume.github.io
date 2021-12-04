@@ -1,0 +1,15 @@
+#nav-container img {
+    width: 41px;
+    height: 22px;
+}
+#nav-container ul li {
+  
+    font-size: 7px;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    margin: 7px;
+}
+#Contact-Us::before {
+    /* visibility: hidden; */
+    height: 350px;
+}
