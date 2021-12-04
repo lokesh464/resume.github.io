@@ -126,7 +126,7 @@ body {
 #Home::before{ 
     content: "";
     position: absolute;
-    background: url("../bgimage/blue-example-bg.jpg") no-repeat center center/cover;
+    background: url('images/blue-example-bg.jpg') no-repeat center center/cover;
     height: 650px;
     top:0px;
     left:0px;
@@ -168,7 +168,7 @@ body {
 
 #Templates::before{ 
     content: "";
-    background: url(../bgimage/Free-film-resume-template.jpg) no-repeat center center/cover;
+    background: url('/images/Free-film-resume-template.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -227,7 +227,7 @@ body {
 
 #Editor::before{ 
     content: "";
-    background: url(../bgimage/resume-builder.jpg) no-repeat center center/cover;
+    background: url('/images/resume-builder.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -294,7 +294,7 @@ body {
 
 #Review::before{ 
     content: "";
-    background: url(../bgimage/uptowork_resume_template_2.jpg) no-repeat center center/cover;
+    background: url('/images/uptowork_resume_template_2.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -354,7 +354,7 @@ body {
 
 #Contact-Us::before{ 
     content: "";
-    background: url(../bgimage/contact-banner.jpg) no-repeat center center/cover;
+    background: url('/images/contact-banner.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 500px;
@@ -366,7 +366,7 @@ body {
 }
 
 /* #Contact-Us{
-    background-image: url("../bgimage/contact-banner.jpg");
+    background-image: url("'/images/contact-banner.jpg'");
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
@@ -437,254 +437,3 @@ hr{
 
 /* phone css */
 
-
-
-/* @media only screen and (min-device-width:394px) and (max-device-width:1200px) { */
-
-    #nav-container{
-        flex-direction: column;
-    }
-    
-    /* #nav-container img {
-        width: 84px;
-        height: 48px;
-    } */
-    
-    
-    #logo img {
-        width: 67px;
-        height: 32px;
-        margin: 3px;
-        margin-right: 41px;
-    }
-    /* #nav-container ul li {
-    
-        font-size: 17px;
-        padding: 0px;
-        margin: 10px;
-    } */
-        
-        #nav-container ul li {
-       
-        /* list-style: none; */
-        
-        /* font-family: 'Padauk', sans-serif; */
-        font-size: 13px;
-        /* color: white; */
-        text-shadow: 2px 2px 2px black;
-        /* display: flex; */
-        padding: 8px;
-        /* align-items: center; */
-        /* justify-content: center; */
-        margin: 10px;
-        /* border-radius: 454px; */
-        height: 0px;
-        /* background-color: #656d6d24; */
-        /* box-shadow: 0px -1px 0px white; */
-      
-        }
-    
-    
-    
-    
-    .h-primary {
-        font-size: 1rem;
-        text-shadow: -2px -2px 3px #0a0a0a;
-        font-family: 'Lemonada', cursive;
-        margin-top: 130px;
-    }
-    
-    #Home{
-        height: 292px;
-        margin-bottom: 10px ;
-    }
-    
-    #Home::before{
-        height: 312px;
-    }
-    #Home button {
-        font-size: 12px;
-        height: 33px;
-        width: 115px;
-        margin-top: 44px;
-        margin-bottom: 0px;
-    }
-    
-    /* #Templates {
-        height: 390px;
-    } */
-    
-    #Templates h1 {
-        display: block;
-        width: 271px;
-        /* margin: auto; */
-        padding: 11px;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 12px;
-    }
-    
-    #Templates::before {
-        content: "";
-        background: url(../bgimage/Free-film-resume-template.jpg) no-repeat center center/cover;
-        position: absolute;
-        width: 100%;
-        height: 300px;
-        z-index: -1;
-        left: 0;
-        margin-top: 114px;
-        /* display: inline; */
-        opacity: 0.70;
-    }
-    
-    #Templates h1::before {
-        margin-top: 41px;
-        height: 302px;
-    }
-    
-    #Templates button {
-        font-size: 12px;
-        height: 33px;
-        width: 115px;
-        margin-top: 323px;
-        margin-bottom: 0px;
-    }
-    
-    
-    /* #Editor h1 img {
-        width: 46px;
-        height: 20px;
-    } */
-    
-    #Editor::before {
-        content: "";
-        background: url(../bgimage/resume-builder.jpg) no-repeat center center/cover;
-        position: absolute;
-        width: 100%;
-        height: 310px;
-        z-index: -1;
-        left: 0;
-        margin-top: 165px;
-        /* display: inline; */
-        opacity: 0.70;
-    }
-    
-    #Editor h1 {
-        width: 271px;
-        padding: 11px;
-        font-size: 18px;
-    }
-    
-    #Editor h1::before {
-        margin-top: 66px;
-        height: 302px;
-    }
-    
-    #Editor button {
-        font-size: 12px;
-        height: 33px;
-        width: 115px;
-        margin-top: 323px;
-        margin-bottom: 0px;
-    }
-    
-    #Review h1 {
-        width: 271px;
-        padding: 11px;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 13px;
-    }
-    #Review::before {
-        content: "";
-        background: url(../bgimage/uptowork_resume_template_2.jpg) no-repeat center center/cover;
-        position: absolute;
-        width: 100%;
-        height: 310px;
-        z-index: -1;
-        left: 0;
-        margin-top: 136px;
-        /* display: inline; */
-        opacity: 0.70;
-    }
-    /* #Review h1::before {
-        margin-top: 66px;
-        height: 302px;
-    } */
-    
-    #Review button {
-        font-size: 12px;
-        height: 33px;
-        width: 115px;
-        margin-top: 326px;
-        margin-bottom: 0px;
-        
-    }
-    
-    /* hr{
-        visibility: visible;
-    } */
-    
-    
-    #Contact-Us::before {
-        visibility: hidden;
-        height: 208px;
-    }
-    
-    /* #Contact-Us a img {
-        margin: 0px;
-    } */
-    
-    #instagram {
-        position: relative;
-        width: 175px;
-        height: 125px;
-        left: 73px;
-        top: 62px;
-        z-index: 2;
-    }
-    
-    
-    #facebook {
-        position: relative;
-        background-color: ivory;
-        width: 104px;
-        height: 87px;
-        border-radius: 22px;
-        top: 63px;
-        left: 92px;
-        z-index: 1;
-    }
-    
-    
-    #youtube {
-        position: relative;
-        width: 180px;
-        height: 75px;
-        top: 162px;
-        border-radius: 22px;
-        left: -124px;
-        z-index: 2;
-    }
-    
-    
-    /* } */
-
-    
-    /* keypad css */
-
-    #nav-container img {
-        width: 41px;
-        height: 22px;
-    }
-    #nav-container ul li {
-      
-        font-size: 7px;
-        text-shadow: 1px 1px 1px black;
-        padding: 5px;
-        margin: 7px;
-    }
-    #Contact-Us::before {
-        /* visibility: hidden; */
-        height: 350px;
-    }
