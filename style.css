@@ -1,0 +1,690 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+html{
+
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+
+}
+
+/* navbar */
+
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#nav-container::before{
+    content: "";
+    background-color: #656d6d24;;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo{
+    /* position: absolute; */
+    left: 10px;
+}
+
+/* #nav-container section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} */
+
+#logo img{
+    width: 96px;
+    height: 62px;
+    margin: 4px;
+    margin-right: 108px;
+}
+#nav-container ul {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* background-color: #656d6d24; */
+    font-family: 'Padauk', sans-serif;
+}
+#nav-container ul li {
+   
+    list-style: none;
+    
+    
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 19px 37px;
+    border-radius: 454px;
+    height: 0px;
+    /* background-color: #656d6d24; */
+    /* box-shadow: 0px -1px 0px white; */
+  
+}
+#nav-container ul li a {
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+#nav-container ul li:hover{
+    cursor: pointer;
+    /* box-shadow: 0px -2px black; */
+ 
+}
+
+#nav-container ul li a:hover{
+    color:  #afc3c6;;
+    text-shadow:1px 1px 2px black;
+}
+
+
+/* home */
+
+
+#Home{
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+#Home h1{
+    
+    color: #f6f6f6;;
+    width: 61%;
+  
+   
+}
+
+#Home::before{ 
+    content: "";
+    position: absolute;
+    background: url("../bgimage/blue-example-bg.jpg") no-repeat center center/cover;
+    height: 650px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;  
+    opacity: 0.54;
+}
+
+
+
+#Home button{
+    display: block;
+    width: 190px;
+    height: 60px;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+   
+    box-shadow: -4px -3px black;
+    margin-top: 119px;
+    
+}
+
+#Home button:hover{
+    color: white;
+    background-color: green;
+    border:2px solid white;
+    
+}
+
+
+
+/* templates */
+
+/* #Templates{
+    height: 1041px;
+} */
+
+#Templates::before{ 
+    content: "";
+    background: url(../bgimage/Free-film-resume-template.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    margin-top: 258px;
+    /* display: inline; */
+    opacity: 0.70;
+}
+
+
+
+#Templates h1{
+    display: block;
+    width: 732px;
+    margin: auto;
+    padding: 37px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #799f9c;
+    font-size: 50px;
+    border-radius: 136px;
+}
+
+/* #Templates img{
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+    opacity: 0.70;
+} */
+#Templates button{
+    display: block;
+    width: 190px;
+    margin: auto;
+    height: 63px;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -4px -3px black;
+    margin-top: 805px;
+    /* margin-bottom: 60px; */
+}
+
+#Templates button:hover{
+    color: white;
+    background-color: green;
+    border:2px solid white;
+    
+}
+
+
+/* editor */
+
+#Editor::before{ 
+    content: "";
+    background: url(../bgimage/resume-builder.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    margin-top: 317px;
+    /* display: inline; */
+    opacity: 0.70;
+}
+
+#Editor h1{
+    display: block;
+    width: 841px;
+    margin: auto;
+    padding: 37px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #799f9c;
+    font-size: 50px;
+    border-radius: 136px;
+}
+
+#Editor h1 img{
+    width: 77px;
+    height: 40px;
+    border-radius: 61px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#Editor img{
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+    opacity: 0.70;
+}
+
+#Editor button{
+        display: block;
+        width: 190px;
+        margin: auto;
+        height: 63px;
+        border-radius: 55px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: -4px -3px black;
+        margin-top: 805px;
+        /* margin-bottom: 60px; */
+    }
+
+#Editor button:hover{
+    color: white;
+    background-color: green;
+    border:2px solid white;
+      
+    
+}
+
+/* review */
+
+#Review::before{ 
+    content: "";
+    background: url(../bgimage/uptowork_resume_template_2.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    margin-top: 258px;
+    /* display: inline; */
+    opacity: 0.70;
+}
+
+#Review h1{
+    display: block;
+    width: 769px;
+    margin: auto;
+    padding: 37px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #799f9c;
+    font-size: 50px;
+    border-radius: 136px;
+}
+
+#Review img{
+    display: inline;
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    opacity: 0.70;
+
+}
+
+#Review button{
+    display: block;
+    width: 190px;
+    margin: auto;
+    height: 63px;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -4px -3px black;
+    margin-top: 805px;
+
+
+}
+
+#Review button:hover{
+    color: white;
+    background-color: green;
+    border:2px solid white;
+    
+}
+
+/* contact */
+
+
+#Contact-Us::before{ 
+    content: "";
+    background: url(../bgimage/contact-banner.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    left: 0;
+    margin-top: 220px;
+    /* display: inline; */
+    opacity: 0.70;
+}
+
+/* #Contact-Us{
+    background-image: url("../bgimage/contact-banner.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    
+} */
+
+#Contact-Us div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+#Contact-Us a img{
+    display: inline;
+    margin: 4px;
+    
+}
+
+#facebook{
+    position: relative;
+    background-color: ivory;
+    width: 124px;
+    height: 131px;
+    border-radius: 22px;
+    top: 432px;
+    left: 366px;
+    z-index: 1;
+}
+#instagram{
+    position: relative;
+    width: 198px;
+    height: 145px;
+    left: 408px;
+    top: 403px;
+    z-index: 2;
+}
+
+#youtube{
+    position: relative;
+    width: 192px;
+    height: 128px;
+    top: 392px;
+    border-radius: 22px;
+    left: 344px;
+    z-index: 2;
+}
+
+
+/* utility class */
+
+.center{
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 4rem;
+    text-shadow: -2px -2px 3px #0a0a0a;;
+    font-family: 'Lemonada', cursive;
+    margin-top: 245px;
+}
+hr{
+    visibility: hidden;
+}
+
+
+/* phone css */
+
+
+
+/* @media only screen and (min-device-width:394px) and (max-device-width:1200px) { */
+
+    #nav-container{
+        flex-direction: column;
+    }
+    
+    /* #nav-container img {
+        width: 84px;
+        height: 48px;
+    } */
+    
+    
+    #logo img {
+        width: 67px;
+        height: 32px;
+        margin: 3px;
+        margin-right: 41px;
+    }
+    /* #nav-container ul li {
+    
+        font-size: 17px;
+        padding: 0px;
+        margin: 10px;
+    } */
+        
+        #nav-container ul li {
+       
+        /* list-style: none; */
+        
+        /* font-family: 'Padauk', sans-serif; */
+        font-size: 13px;
+        /* color: white; */
+        text-shadow: 2px 2px 2px black;
+        /* display: flex; */
+        padding: 8px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin: 10px;
+        /* border-radius: 454px; */
+        height: 0px;
+        /* background-color: #656d6d24; */
+        /* box-shadow: 0px -1px 0px white; */
+      
+        }
+    
+    
+    
+    
+    .h-primary {
+        font-size: 1rem;
+        text-shadow: -2px -2px 3px #0a0a0a;
+        font-family: 'Lemonada', cursive;
+        margin-top: 130px;
+    }
+    
+    #Home{
+        height: 292px;
+        margin-bottom: 10px ;
+    }
+    
+    #Home::before{
+        height: 312px;
+    }
+    #Home button {
+        font-size: 12px;
+        height: 33px;
+        width: 115px;
+        margin-top: 44px;
+        margin-bottom: 0px;
+    }
+    
+    /* #Templates {
+        height: 390px;
+    } */
+    
+    #Templates h1 {
+        display: block;
+        width: 271px;
+        /* margin: auto; */
+        padding: 11px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    
+    #Templates::before {
+        content: "";
+        background: url(../bgimage/Free-film-resume-template.jpg) no-repeat center center/cover;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        z-index: -1;
+        left: 0;
+        margin-top: 114px;
+        /* display: inline; */
+        opacity: 0.70;
+    }
+    
+    #Templates h1::before {
+        margin-top: 41px;
+        height: 302px;
+    }
+    
+    #Templates button {
+        font-size: 12px;
+        height: 33px;
+        width: 115px;
+        margin-top: 323px;
+        margin-bottom: 0px;
+    }
+    
+    
+    /* #Editor h1 img {
+        width: 46px;
+        height: 20px;
+    } */
+    
+    #Editor::before {
+        content: "";
+        background: url(../bgimage/resume-builder.jpg) no-repeat center center/cover;
+        position: absolute;
+        width: 100%;
+        height: 310px;
+        z-index: -1;
+        left: 0;
+        margin-top: 165px;
+        /* display: inline; */
+        opacity: 0.70;
+    }
+    
+    #Editor h1 {
+        width: 271px;
+        padding: 11px;
+        font-size: 18px;
+    }
+    
+    #Editor h1::before {
+        margin-top: 66px;
+        height: 302px;
+    }
+    
+    #Editor button {
+        font-size: 12px;
+        height: 33px;
+        width: 115px;
+        margin-top: 323px;
+        margin-bottom: 0px;
+    }
+    
+    #Review h1 {
+        width: 271px;
+        padding: 11px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 13px;
+    }
+    #Review::before {
+        content: "";
+        background: url(../bgimage/uptowork_resume_template_2.jpg) no-repeat center center/cover;
+        position: absolute;
+        width: 100%;
+        height: 310px;
+        z-index: -1;
+        left: 0;
+        margin-top: 136px;
+        /* display: inline; */
+        opacity: 0.70;
+    }
+    /* #Review h1::before {
+        margin-top: 66px;
+        height: 302px;
+    } */
+    
+    #Review button {
+        font-size: 12px;
+        height: 33px;
+        width: 115px;
+        margin-top: 326px;
+        margin-bottom: 0px;
+        
+    }
+    
+    /* hr{
+        visibility: visible;
+    } */
+    
+    
+    #Contact-Us::before {
+        visibility: hidden;
+        height: 208px;
+    }
+    
+    /* #Contact-Us a img {
+        margin: 0px;
+    } */
+    
+    #instagram {
+        position: relative;
+        width: 175px;
+        height: 125px;
+        left: 73px;
+        top: 62px;
+        z-index: 2;
+    }
+    
+    
+    #facebook {
+        position: relative;
+        background-color: ivory;
+        width: 104px;
+        height: 87px;
+        border-radius: 22px;
+        top: 63px;
+        left: 92px;
+        z-index: 1;
+    }
+    
+    
+    #youtube {
+        position: relative;
+        width: 180px;
+        height: 75px;
+        top: 162px;
+        border-radius: 22px;
+        left: -124px;
+        z-index: 2;
+    }
+    
+    
+    /* } */
+
+    
+    /* keypad css */
+
+    #nav-container img {
+        width: 41px;
+        height: 22px;
+    }
+    #nav-container ul li {
+      
+        font-size: 7px;
+        text-shadow: 1px 1px 1px black;
+        padding: 5px;
+        margin: 7px;
+    }
+    #Contact-Us::before {
+        /* visibility: hidden; */
+        height: 350px;
+    }
