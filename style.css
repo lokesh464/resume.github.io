@@ -168,7 +168,7 @@ body {
 
 #Templates::before{ 
     content: "";
-    background: url('/images/Free-film-resume-template.jpg') no-repeat center center/cover;
+    background: url('images/Free-film-resume-template.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -227,7 +227,7 @@ body {
 
 #Editor::before{ 
     content: "";
-    background: url('/images/resume-builder.jpg') no-repeat center center/cover;
+    background: url('images/resume-builder.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -294,7 +294,7 @@ body {
 
 #Review::before{ 
     content: "";
-    background: url('/images/uptowork_resume_template_2.jpg') no-repeat center center/cover;
+    background: url('images/uptowork_resume_template_2.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -354,7 +354,7 @@ body {
 
 #Contact-Us::before{ 
     content: "";
-    background: url('/images/contact-banner.jpg') no-repeat center center/cover;
+    background: url('images/contact-banner.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 500px;
@@ -366,7 +366,7 @@ body {
 }
 
 /* #Contact-Us{
-    background-image: url("'/images/contact-banner.jpg'");
+    background-image: url("'images/contact-banner.jpg'");
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
